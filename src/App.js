@@ -4,6 +4,7 @@ import Dashboard from './containers/Dashboard';
 import GenerateCode from './components/GenerateCode';
 import Login from './containers/Login';
 import ScanCode from './components/ScanCode';
+import StudentCount from './components/StudentCount';
 
 const App = () => (
   <Router>
@@ -11,6 +12,7 @@ const App = () => (
     <ScanCode path="assistance/:cohortid" />
     <Login path="login" />
     <GenerateCode path="generate" />
+    <StudentCount path="count" />
   </Router>
 );
 
